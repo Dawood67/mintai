@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Offcanvas, Nav, Container } from "react-bootstrap";
-import logo from "../../assets/images/logo.png";
+import logo from "../../../assets/images/logo.png";
 import {
   AuditBtn,
   BtnContainer,

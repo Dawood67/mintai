@@ -11,6 +11,7 @@ import {
   JoinNow,
 } from "./element";
 import { FaTelegramPlane, FaTwitter, FaYoutube } from "react-icons/fa";
+import footerlogo from "../../../assets/images/logo.png";
 
 function Footer() {
   return (
@@ -19,7 +20,7 @@ function Footer() {
         <Row>
           <Col lg={3}>
             <FooterImageDiv>
-              {/* <img className="img-fluid logo" src={footerlogo} /> */}
+              <img className="img-fluid logo" src={footerlogo} />
               <p className="brandText">Mint-AI</p>
             </FooterImageDiv>
           </Col>

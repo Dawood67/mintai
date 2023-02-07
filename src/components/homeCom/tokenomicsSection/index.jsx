@@ -14,7 +14,7 @@ import {
   RightDivPercentage,
   TotalSupplyText,
 } from "./element";
-import whitecutout from "../../assets/images/whitecutout.png";
+import whitecutout from "../../../assets/images/whitecutout.png";
 
 function TokenomicSection() {
   return (
