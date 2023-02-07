@@ -33,12 +33,16 @@ export const HeroSectionWrapper = styled.div`
 `;
 
 export const MainHeading = styled.h2`
-  font-style: normal;
-  font-weight: 700;
-  font-size: 67px;
-  line-height: 100px;
-  text-transform: uppercase;
-  color: #ffd452;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 74px;
+line-height: 123%;
+/* or 91px */
+
+text-transform: uppercase;
+
+color: #06E7AD;
   margin: 0;
   margin-top: 10rem;
 
@@ -50,12 +54,15 @@ export const MainHeading = styled.h2`
 `;
 
 export const SubText = styled.h4`
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  text-transform: capitalize;
-  color: #d8f5e7;
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-transform: capitalize;
+
+color: #FFFFFF;
   margin: 0;
   margin-top: 0.5rem;
 
@@ -72,16 +79,21 @@ export const SubText = styled.h4`
 `;
 
 export const BuyBtn = styled.button`
-  background: #ffd452;
-  border-radius: 5px;
-  border: none;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 26px;
-  text-transform: capitalize;
-  color: #2e4756;
-  padding: 0.8rem 2rem;
+  background: #112528;
+border: 2px solid #06E7AD;
+box-shadow: 4px 4px 27px #06E7AD;
+border-radius: 5px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #06E7AD;
+  padding: 0.5rem 2rem;
   /* transition: all 0.2s ease; */
   margin-top: 3rem;
 

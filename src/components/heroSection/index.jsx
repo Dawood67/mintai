@@ -19,21 +19,10 @@ const HeroSection = () => {
 
       <Container className="heroContainer">
         <MainHeading>
-          {/* <Typewriter
-            options={{ autoStart: true, loop: true }}
-            onInit={(typewriter) => {
-              typewriter
-                .typeString(`<span>ai iNU</span>`)
-                .pauseFor(2000)
-                .deleteAll()
-                .start();
-            }}
-          /> */}
-          helllo
+        Designing AI for<br/> the Blockchain
         </MainHeading>
         <SubText>
-          Attractive background image or video related to
-          <br /> cryptocurrency or blockchain technology
+        Bringing AI bundle for crypto enthusiastic and NFT investors. To<br/> access the bundle, users requires $MintAI tokens
         </SubText>
         <BuyBtn>Buy on uniswap</BuyBtn>
       </Container>
