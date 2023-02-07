@@ -15,13 +15,16 @@ export const NavbarWrapper = styled.div`
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 12.5518px;
-line-height: 16px;
+font-size: 12.0566px;
+line-height: 18px;
+/* identical to box height */
+
 text-transform: capitalize;
+
 color: #D8F5E7;
     margin: 0px 10px;
     &:hover {
-      color: #FFD452;
+      color: #00D08F;
     }
     &:hover a {
       color: #ffffff;
@@ -57,7 +60,9 @@ color: #D8F5E7;
       line-height: 30px;
       text-transform: uppercase;
       color: #ffffff;
-      margin: 0 !important;
+      /* color:black ; */
+      margin-left:3rem ;
+      margin-top:.5rem ;
     }
   }
 `;
@@ -77,18 +82,22 @@ export const BtnContainer = styled.div`
 export const AuditBtn = styled.button`
 background: transparent;
 font-family: 'Poppins';
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 10px;
 line-height: 15px;
-text-transform: capitalize; 
+/* identical to box height */
+
+text-transform: capitalize;
+
 color: #D8F5E7;
-border: 1px solid #ffd452;
+border: 1px solid #00D08F;
 padding: 8px 35px;
 
 &:hover 
 {
-  background-color: #ffd452;
+  background-color: #00D08F;
   color: black;
 }
 `
@@ -96,19 +105,23 @@ padding: 8px 35px;
 export const NavBtn = styled.button`
   background-color: transparent;
   border: none;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  text-transform: capitalize;
-  color: #ffd452;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #00D08F;
 
   &::after {
     content: "";
     display: block;
     width: 0%;
     height: 2px;
-    background: #ffd452;
+    background: #00D08F;
     transition: width 0.3s ease;
   }
   &:hover::after {
@@ -117,15 +130,17 @@ export const NavBtn = styled.button`
 `;
 
 export const LaunchAppBtn = styled.button`
-  background: #ffd452;
-  border-radius: 5px;
-  border: none;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  text-transform: capitalize;
-  color: #2e4756;
+  background: transparent;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
   width: 103px;
   height: 38px;
 
