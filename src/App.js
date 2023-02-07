@@ -1,13 +1,13 @@
 import Header from "./components/header";
-import NavbarComp from './components/navbar/index';
-
+import NavbarComp from "./components/navbar/index";
+import { AppDiv } from "./element";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <NavbarComp/>
-    </div>
+    <AppDiv>
+      <Header />
+      <NavbarComp />
+    </AppDiv>
   );
 }
 
